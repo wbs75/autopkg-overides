@@ -16,7 +16,7 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>production</string>
 			</array>
 			<key>description</key>
 			<string>OnyX is a multifunction utility for OS X which allows you to verify the startup disk and the structure of its system files, to run miscellaneous tasks of system maintenance, to configure some hidden parameters of the Finder, Dock, QuickTime, Safari, Mail, iTunes, login window, Spotlight, and many of Apple’s applications, to delete caches, to remove a certain number of files and folders that may become cumbersome, and more.</string>

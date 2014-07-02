@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.CocktailME</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>http://usa.maintain.se/CocktailME.dmg</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>utilities</string>
+		<key>NAME</key>
+		<string>CocktailME</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>Cocktail is a general purpose utility for OS X that lets you clean, repair and optimize your Mac.</string>
+			<key>display_name</key>
+			<string>CocktailME</string>
+			<key>minimum_os_version</key>
+			<string>10.9</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.mikaellofgren.munki.CocktailME</string>
+</dict>
+</plist>

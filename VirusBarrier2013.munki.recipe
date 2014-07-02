@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.VirusBarrier2013</string>
+	<key>Input</key>
+	<dict>
+		<key>DMG_NAME</key>
+		<string>VirusBarrier_2013.dmg</string>
+		<key>INSTALLED_APP</key>
+		<string>/Applications/Intego/VirusBarrier.app</string>
+		<key>INSTALLER_APP</key>
+		<string>VirusBarrier Installer.app</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>security</string>
+		<key>NAME</key>
+		<string>VirusBarrier2013</string>
+		<key>PKG_NAME</key>
+		<string>VirusBarrier.pkg</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>VirusBarrier™ 2013 is an anti-virus, anti-malware program for Mac.</string>
+			<key>display_name</key>
+			<string>Intego VirusBarrier 2013</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dankeller.munki.VirusBarrier2013</string>
+</dict>
+</plist>

@@ -18,7 +18,7 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>production</string>
 			</array>
 			<key>description</key>
 			<string>Create and configure lightweight, reproducible, and portable development environments.</string>

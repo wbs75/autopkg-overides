@@ -12,6 +12,10 @@
 		<string>CUDADriver</string>
 		<key>pkginfo</key>
 		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>production</string>
+			</array>		
 			<key>RestartAction</key>
 			<string>RequireLogout</string>
 			<key>description</key>

@@ -20,7 +20,7 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>production</string>
 			</array>
 			<key>description</key>
 			<string>Take a different look at your disk. See what's on your Mac and recover disk space every time you need it.</string>

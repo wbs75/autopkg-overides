@@ -5,6 +5,7 @@ autopkg-overides for :
 
 
     sudo autopkg repo-add https://github.com/wbs75/autopkg-recipes
+    sudo autopkg repo-add https://github.com/wbs75/autopkg-overides
     sudo autopkg repo-add https://github.com/autopkg/recipes
     sudo autopkg repo-add https://github.com/autopkg/hjuutilainen-recipes
     sudo autopkg repo-add https://github.com/autopkg/arubdesu-recipes

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.CheatSheet</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>productivity</string>
+		<key>NAME</key>
+		<string>CheatSheet</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>http://mediaatelier.com/CheatSheet/feed.php</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>production</string>
+			</array>
+			<key>description</key>
+			<string>Know your short cuts.
+
+Just hold the command key a bit longer to get a list of all active short cuts of the current application. It's as simple as that.</string>
+			<key>display_name</key>
+			<string>CheatSheet</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.munki.CheatSheet</string>
+</dict>
+</plist>

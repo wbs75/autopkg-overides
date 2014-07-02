@@ -3,13 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.PlexHomeTheater</string>
+	<string>local.munki.PlexMediaServer</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/plex</string>
+		<string>apps</string>
 		<key>NAME</key>
-		<string>Plex Home Theater</string>
+		<string>PlexMediaServer</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://www.plexapp.com/appcast/mac/pms.xml</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -17,9 +19,9 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>For the ultimate experience, install Plex Home Theater on a dedicated computer for your TV. It's optimized for the big screen and supports a wide variety of formats with high-definition audio, native framerates, and more.</string>
+			<string>Organize all your videos, photos, and music.</string>
 			<key>display_name</key>
-			<string>Plex Home Theater</string>
+			<string>Plex Media Server</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -27,6 +29,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.uib.autopkg-recipes.munki.PlexHomeTheater</string>
+	<string>io.github.hjuutilainen.munki.PlexMediaServer</string>
 </dict>
 </plist>

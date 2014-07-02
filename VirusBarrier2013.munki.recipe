@@ -22,7 +22,7 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>production</string>
 			</array>
 			<key>description</key>
 			<string>VirusBarrier™ 2013 is an anti-virus, anti-malware program for Mac.</string>

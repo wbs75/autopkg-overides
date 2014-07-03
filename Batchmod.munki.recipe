@@ -3,13 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.Batchmod</string>
+	<string>local.munki.BatChmod</string>
 	<key>Input</key>
 	<dict>
+		<key>APP_DESTINATION</key>
+		<string>/Applications/Utilities</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>utilities</string>
 		<key>NAME</key>
-		<string>Batchmod</string>
+		<string>BatChmod</string>
 		<key>SPARKLE_FEED_URL</key>
 		<string>http://www.macchampion.com/arbysoft/batchmodappcast.xml</string>
 		<key>pkginfo</key>
@@ -19,7 +21,7 @@
 				<string>production</string>
 			</array>
 			<key>description</key>
-			<string>BatChmod is a utility for manipulating file and folder privileges in Mac OS X</string>
+			<string>BatChmod is a utility for manipulating file and folder privileges in Mac OS X.  It allows the manipulation of ownership as well as the privileges associated to the Owner, Group or others. It can also unlock files in order to apply those privileges and finally, it can remove any ACLs added to a folder or file under Mac OS X 10.5 Leopard or better.</string>
 			<key>display_name</key>
 			<string>BatChmod</string>
 			<key>name</key>
@@ -29,6 +31,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.askilgl.autopkg.munki.Batchmod</string>
+	<string>com.github.jleggat.autopkg-recipes.BatChmod.munki</string>
 </dict>
 </plist>

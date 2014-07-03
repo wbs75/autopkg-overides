@@ -9,7 +9,7 @@
 		<key>BRANCH</key>
 		<string>release</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>utilities</string>
+		<string>devekopment</string>
 		<key>NAME</key>
 		<string>XQuartz</string>
 		<key>pkginfo</key>

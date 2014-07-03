@@ -3,15 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.Chocolat</string>
+	<string>local.munki.Fetch</string>
 	<key>Input</key>
 	<dict>
+		<key>APP_DESTINATION</key>
+		<string>/Applications</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>productivity</string>
+		<string>apps/Fetch</string>
 		<key>NAME</key>
-		<string>Chocolat</string>
-		<key>SPARKLE_FEED_URL</key>
-		<string>http://chocolatapp.com/userspace/appcast/appcast_alpha.php</string>
+		<string>Fetch</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -19,18 +21,16 @@
 				<string>production</string>
 			</array>
 			<key>description</key>
-			<string>Native text editor for Mac.</string>
+			<string>Fetch is a full-featured FTP, SFTP and FTPS (FTP with TLS/SSL) client with a simple and easy-to-use interface.</string>
 			<key>display_name</key>
-			<string>Chocolat</string>
+			<string>Fetch - Full featured file transfer client</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
-			<key>unattended_uninstall</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>io.github.hjuutilainen.munki.Chocolat</string>
+	<string>com.github.jleggat.autopkg-recipes.Fetch.munki</string>
 </dict>
 </plist>

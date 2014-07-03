@@ -9,7 +9,7 @@
 		<key>CULTURE_CODE</key>
 		<string>0409</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>microsoft</string>
+		<string>apps/Office2011</string>
 		<key>NAME</key>
 		<string>Office2011_update</string>
 		<key>VERSION</key>

@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>APP_DESTINATION</key>
-		<string>/Applications</string>
+		<string>/Applications/Utilities</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>system-admin</string>
 		<key>NAME</key>

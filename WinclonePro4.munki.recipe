@@ -3,15 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.Chocolat</string>
+	<string>local.munki.WinclonePro4</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>productivity</string>
+		<string>utilities</string>
 		<key>NAME</key>
-		<string>Chocolat</string>
+		<string>WinclonePro4</string>
 		<key>SPARKLE_FEED_URL</key>
-		<string>http://chocolatapp.com/userspace/appcast/appcast_alpha.php</string>
+		<string>https://www.twocanoes.com/winclone/updates/winclone4-pro-software-updates.xml</string>
+		<key>USER_AGENT</key>
+		<string>Winclone Pro/4.1 Sparkle/313</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -19,18 +21,16 @@
 				<string>production</string>
 			</array>
 			<key>description</key>
-			<string>Native text editor for Mac.</string>
+			<string>Winclone Pro is a utility to image, clone, and restore Boot Camp partitions.</string>
 			<key>display_name</key>
-			<string>Chocolat</string>
+			<string>Winclone Pro 4</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
-			<key>unattended_uninstall</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>io.github.hjuutilainen.munki.Chocolat</string>
+	<string>com.github.keeleysam.recipes.Twocanoes.WinclonePro4.munki</string>
 </dict>
 </plist>

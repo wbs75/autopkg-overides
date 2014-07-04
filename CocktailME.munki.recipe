@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.CUDA-Z</string>
+	<string>local.munki.CocktailME</string>
 	<key>Input</key>
 	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>http://usa.maintain.se/CocktailME.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>utilities</string>
+		<string>Apps</string>
 		<key>NAME</key>
-		<string>CUDA-Z</string>
-		<key>SOURCEFORGE_FILE_PATTERN</key>
-		<string>CUDA-Z-[0-9\.]*\.dmg</string>
-		<key>SOURCEFORGE_PROJECT_ID</key>
-		<string>231666</string>
+		<string>CocktailME</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>production</string>
+				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>CUDA-Z shows some basic information about CUDA-enabled GPUs and GPGPUs. It works with nVIDIA Geforce, Quadro and Tesla cards, ION chipsets.</string>
+			<string>Cocktail is a general purpose utility for OS X that lets you clean, repair and optimize your Mac.</string>
+			<key>display_name</key>
+			<string>CocktailME</string>
 			<key>minimum_os_version</key>
-			<string>10.7.0</string>
+			<string>10.9</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -31,6 +31,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.jessepeterson.munki.CUDA-Z</string>
+	<string>com.github.mikaellofgren.munki.CocktailME</string>
 </dict>
 </plist>

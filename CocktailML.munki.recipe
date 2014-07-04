@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.CocktailME</string>
+	<string>local.munki.CocktailML</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>http://usa.maintain.se/CocktailME.dmg</string>
+		<string>http://usa.maintain.se/CocktailMLE.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>utilities</string>
+		<string>Apps</string>
 		<key>NAME</key>
-		<string>CocktailME</string>
+		<string>CocktailML</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>production</string>
+				<string>testing</string>
 			</array>
 			<key>description</key>
 			<string>Cocktail is a general purpose utility for OS X that lets you clean, repair and optimize your Mac.</string>
 			<key>display_name</key>
-			<string>CocktailME</string>
+			<string>CocktailML</string>
 			<key>minimum_os_version</key>
-			<string>10.9</string>
+			<string>10.8</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -31,6 +31,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.mikaellofgren.munki.CocktailME</string>
+	<string>com.github.mikaellofgren.munki.CocktailML</string>
 </dict>
 </plist>

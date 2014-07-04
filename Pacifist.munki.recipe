@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.VLC</string>
+	<string>local.munki.Pacifist</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>audio\video</string>
+		<string>apps</string>
 		<key>NAME</key>
-		<string>VLC</string>
+		<string>Pacifist</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>http://www.charlessoft.com/cgi-bin/pacifist_sparkle.cgi</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>production</string>
+				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>VLC Media Player is a highly portable multimedia player for various audio and video formats (MPEG-1, MPEG-2, MPEG-4, DivX, MP3, OGG, ...) as well as DVDs, VCDs, and various streaming protocols. It can also be used as a server to stream in unicast or multicast in IPv4 or IPv6 on a high-bandwidth network.</string>
+			<string>Pacifist is an application that opens Mac OS X .pkg package files, .dmg disk images, and .zip, .tar, .tar.gz, .tar.bz2, and .xar archives and allows you to extract individual files and folders out of them.</string>
 			<key>display_name</key>
-			<string>VLC</string>
+			<string>Pacifist</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -27,6 +29,6 @@
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.wbs75.munki.VLC</string>
+	<string>com.github.futureimperfect.munki.pacifist</string>
 </dict>
 </plist>

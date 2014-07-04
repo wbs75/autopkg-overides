@@ -35,7 +35,7 @@
 		<key>MUNKI_CATALOG</key>
 		<string>development</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>munkitools</string>
+		<string>automation/munki</string>
 		<key>NAME</key>
 		<string>munkitools</string>
 	</dict>

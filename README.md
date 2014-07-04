@@ -5,6 +5,25 @@ autopkg-overides
 
 ==========================================================||
 
+                # Repo-Add
+                autopkg repo-add \
+                                https://github.com/arubdesu/Recipes \
+                                https://github.com/autopkg/dankeller-recipes \
+                                https://github.com/autopkg/hjuutilainen-recipes \
+                                https://github.com/autopkg/jessepeterson-recipes \
+                                https://github.com/autopkg/jleggat-recipes \
+                                https://github.com/autopkg/keeleysam-recipes \
+                                https://github.com/autopkg/recipes \
+                                https://github.com/autopkg/sheagcraig-recipes \
+                                https://github.com/autopkg/timsutton-recipes \
+                                https://github.com/CalumHunter/recipes \
+                                https://github.com/futureimperfect/autopkg-recipes \
+                                https://github.com/mikaellofgren/autopkgrecipe \
+                                https://github.com/wbs75/autopkg-recipes
+                                
+
+==========================================================||
+
                 # wbs75.autopkg-recipes
                 autopkg run \
                                 AirDisplay-Host.munki.recipe \

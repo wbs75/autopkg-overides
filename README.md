@@ -5,95 +5,76 @@ autopkg-overides
 
 ==========================================================||
 
-                # Repo-Add
-                autopkg repo-add \
-                                https://github.com/arubdesu/Recipes \
-                                https://github.com/autopkg/dankeller-recipes \
-                                https://github.com/autopkg/hjuutilainen-recipes \
-                                https://github.com/autopkg/jessepeterson-recipes \
-                                https://github.com/autopkg/jleggat-recipes \
-                                https://github.com/autopkg/keeleysam-recipes \
-                                https://github.com/autopkg/recipes \
-                                https://github.com/autopkg/sheagcraig-recipes \
-                                https://github.com/autopkg/timsutton-recipes \
-                                https://github.com/CalumHunter/recipes \
-                                https://github.com/futureimperfect/autopkg-recipes \
-                                https://github.com/mikaellofgren/autopkgrecipe \
-                                https://github.com/wbs75/autopkg-recipes
-                                
-
-==========================================================||
-
                 # wbs75.autopkg-recipes
                 autopkg run \
-                                AirDisplay-Host.munki.recipe \
-                                Beamer.munki.recipe \
-                                Chameleon-SSD-Optimizer.munki.recipe \
-                                CleanMyMac2.munki.recipe \
-                                DataRescue3.munki.recipe \
-                                DynUpdater.munki.recipe \
-                                IconBox.munki.recipe \
-                                LaunchControl.munki.recipe \
-                                LicenseKeeper.munki.recipe \
-                                Musicality.munki.recipe \
-                                ScreenFlow.munki.recipe \
-                                ScriptDebugger.munki.recipe \
-                                Snippets.munki.recipe \
-                                TechToolPro-7.munki.recipe \
-                                TotalFinder.munki.recipe \
-                                com.github.wbs75.munki.Transmit Transmit.munki.recipe \
-                                TrimEnabler.munki.recipe \
-                                com.github.wbs75.autopkg-recipes VLC.munki.recipe
-                
+                                AirDisplay-Host.munki \
+                                Beamer.munki \
+                                Chameleon-SSD-Optimizer.munki \
+                                CleanMyMac2.munki \
+                                DataRescue3.munki \
+                                DynUpdater.munki \
+                                IconBox.munki \
+                                LaunchControl.munki \
+                                LicenseKeeper.munki \
+                                Musicality.munki \
+                                ScreenFlow.munki \
+                                ScriptDebugger.munki \
+                                Snippets.munki \
+                                TechToolPro-7.munki \
+                                TotalFinder.munki \
+                                com.github.wbs75.munki.Transmit Transmit.munki \
+                                TrimEnabler.munki \
+                                com.github.wbs75.autopkg-recipes VLC.munki
+                                
+          ==========================================================||      
 
                 # RecipeOverrides
                 autopkg run \
-                                1Password.munki.recipe \
-                                AdobeFlashPlayerExtractPackage.munki.recipe \
-                                AdobeShockwavePlayer.munki.recipe \
-                                AirServer.pkg.recipe \
-                                Alfred2.munki.recipe \
-                                Atom.munki.recipe \
-                                com.github.autopkg.timsutton-recipes AutoDMG.munki.recipe \
-                                BatChmod.munki.recipe \
-                                CarbonCopyCloner.munki.recipe \
-                                CheatSheet.munki.recipe \
-                                Chocolat.munki.recipe \
-                                CocktailME.munki.recipe \
-                                CocktailML.munki.recipe \
-                                CreateUserPkg.munki.recipe \
-                                CUDADriver.munki.recipe \
-                                Cyberduck.munki.recipe \
-                                DaisyDisk.munki.recipe \
-                                dockutil.munki.recipe \
-                                Dropbox.munki.recipe \
-                                Facter.munki.recipe \
-                                Firefox.munki.recipe \
-                                gfxCardStatus.munki.recipe \
-                                GoogleChrome.munki.recipe \
-                                Handbrake.munki.recipe \
-                                Hiera.munki.recipe \
-                                MSOffice2011Updates.munki.recipe \
-                                MunkiAdmin.munki.recipe \
-                                munkitools.munki.recipe \
-                                munkitools2.munki.recipe \
-                                OnyxME.munki.recipe \
-                                OnyxML.munki.recipe \
-                                OracleJava7.munki.recipe \
-                                OracleJava8.munki.recipe \
-                                Pacifist.munki.recipe \
-                                Packages.munki.recipe \
-                                ParallelsDesktop9.munki.recipe \
-                                PlexMediaServer.munki.recipe \
-                                Puppet.munki.recipe \
-                                Silverlight.munki.recipe \
-                                SublimeText2.munki.recipe \
-                                SublimeText3.munki.recipe \
-                                TeamViewer.munki.recipe \
-                                Vagrant.munki.recipe \
-                                VirusBarrier2013.munki.recipe \
-                                WinclonePro4.munki.recipe \
-                                XQuartz.munki.recipe
+                                1Password.munki \
+                                AdobeFlashPlayerExtractPackage.munki \
+                                AdobeShockwavePlayer.munki \
+                                AirServer.pkg \
+                                Alfred2.munki \
+                                Atom.munki \
+                                com.github.autopkg.timsutton-recipes AutoDMG.munki \
+                                BatChmod.munki \
+                                CarbonCopyCloner.munki \
+                                CheatSheet.munki \
+                                Chocolat.munki \
+                                CocktailME.munki \
+                                CocktailML.munki \
+                                CreateUserPkg.munki \
+                                CUDADriver.munki \
+                                Cyberduck.munki \
+                                DaisyDisk.munki \
+                                dockutil.munki \
+                                Dropbox.munki \
+                                Facter.munki \
+                                Firefox.munki \
+                                gfxCardStatus.munki \
+                                GoogleChrome.munki \
+                                Handbrake.munki \
+                                Hiera.munki \
+                                MSOffice2011Updates.munki \
+                                MunkiAdmin.munki \
+                                munkitools.munki \
+                                munkitools2.munki \
+                                OnyxME.munki \
+                                OnyxML.munki \
+                                OracleJava7.munki \
+                                OracleJava8.munki \
+                                Pacifist.munki \
+                                Packages.munki \
+                                ParallelsDesktop9.munki \
+                                PlexMediaServer.munki \
+                                Puppet.munki \
+                                Silverlight.munki \
+                                SublimeText2.munki \
+                                SublimeText3.munki \
+                                TeamViewer.munki \
+                                Vagrant.munki \
+                                VirusBarrier2013.munki \
+                                WinclonePro4.munki \
+                                XQuartz.munki
                 
-                exit
-
+                exit            

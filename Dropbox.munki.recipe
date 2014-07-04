@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Dropbox</string>
+		<string>datatransfer</string>
 		<key>NAME</key>
 		<string>Dropbox</string>
 		<key>pkginfo</key>

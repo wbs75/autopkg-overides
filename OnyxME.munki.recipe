@@ -9,14 +9,14 @@
 		<key>DOWNLOAD_URL</key>
 		<string>http://joel.barriere.pagesperso-orange.fr/dl/109/OnyX.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Apps</string>
+		<string>utilities</string>
 		<key>NAME</key>
 		<string>OnyxME</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>production</string>
 			</array>
 			<key>description</key>
 			<string>OnyX is a multifunction utility for OS X which allows you to verify the startup disk and the structure of its system files, to run miscellaneous tasks of system maintenance, to configure some hidden parameters of the Finder, Dock, QuickTime, Safari, Mail, iTunes, login window, Spotlight, and many of Apple’s applications, to delete caches, to remove a certain number of files and folders that may become cumbersome, and more.</string>

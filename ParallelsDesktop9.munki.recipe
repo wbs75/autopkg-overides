@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Parallels/ParallelsDesktop9</string>
+		<string>virtualization/parallels</string>
 		<key>NAME</key>
 		<string>ParallelsDesktop9</string>
 		<key>pkginfo</key>

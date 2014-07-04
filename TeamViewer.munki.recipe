@@ -9,7 +9,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>http://download.teamviewer.com/download/TeamViewer.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/TeamViewer</string>
+		<string>internet/remote</string>
 		<key>NAME</key>
 		<string>TeamViewer</string>
 		<key>pkginfo</key>

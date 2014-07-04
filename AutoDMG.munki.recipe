@@ -2,29 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Identifier</key>
-	<string>local.munki.AutoDMG</string>
-	<key>Input</key>
-	<dict>
-		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps</string>
-		<key>NAME</key>
-		<string>system-admin</string>
-		<key>pkginfo</key>
-		<dict>
-			<key>catalogs</key>
-			<array>
-				<string>production</string>
-			</array>
-			<key>description</key>
-			<string>Create deployable system images from OS X installer.</string>
-			<key>name</key>
-			<string>%NAME%</string>
-			<key>unattended_install</key>
-			<true/>
-		</dict>
-	</dict>
-	<key>ParentRecipe</key>
-	<string>com.github.timsutton.munki.AutoDMG</string>
+    <key>Identifier</key>
+    <string>local.munki.AutoDMG</string>
+    <key>Input</key>
+    <dict>
+        <key>LOCALE</key>
+        <string>en_US</string>
+        <key>MUNKI_REPO_SUBDIR</key>
+        <string>automation</string>
+        <key>NAME</key>
+        <string>AutoDMG</string>
+        <key>RELEASE</key>
+        <string>latest</string>
+        <key>pkginfo</key>
+        <dict>
+            <key>catalogs</key>
+            <array>
+                <string>production</string>
+            </array>
+            <key>description</key>
+            <string>Create deployable system images from OS X installer</string>
+            <key>display_name</key>
+            <string>AutoDMG</string>
+            <key>name</key>
+            <string>%NAME%</string>
+            <key>unattended_install</key>
+            <true/>
+        </dict>
+    </dict>
+    <key>ParentRecipe</key>
+    <string>com.github.timsutton.download.AutoDMG</string>
 </dict>
 </plist>

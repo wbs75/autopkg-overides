@@ -17,8 +17,8 @@ autopkg-overides
                                 https://github.com/CalumHunter/recipes \
                                 https://github.com/futureimperfect/autopkg-recipes \
                                 https://github.com/mikaellofgren/autopkgrecipe \
-                                https://github.com/wbs75/autopkg-recipe    
-                                
+                                https://github.com/wbs75/autopkg-recipes \
+                                https://github.com/wbs75/autopkg-overides
                 ==========================================================||
 
                 # wbs75.autopkg-recipes

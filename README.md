@@ -1,8 +1,6 @@
 autopkg-overides
 ================
 
-               ==========================================================||
-  
                 # Repo-Add
                 autopkg repo-add \
                                 https://github.com/arubdesu/Recipes \
@@ -18,8 +16,10 @@ autopkg-overides
                                 https://github.com/futureimperfect/autopkg-recipes \
                                 https://github.com/mikaellofgren/autopkgrecipe \
                                 https://github.com/wbs75/autopkg-recipes \
-                                https://github.com/wbs75/autopkg-overides
-                ==========================================================||
+                                https://github.com/wbs75/autopkg-overides \
+                                https://github.com/autopkg/justinrummel-recipes
+                                
+===
 
                 # wbs75.autopkg-recipes
                 autopkg run \
@@ -42,7 +42,7 @@ autopkg-overides
                                 TrimEnabler.munki \
                                 com.github.wbs75.autopkg-recipes VLC.munki
                                 
-                ==========================================================||      
+===      
 
                 # RecipeOverrides
                 autopkg run \
@@ -92,5 +92,4 @@ autopkg-overides
                                 VirusBarrier2013.munki \
                                 WinclonePro4.munki \
                                 XQuartz.munki
-                
                 exit            
